@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Sanjeev Sriram | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="js/BorderGlow.css" />
+    <style data-purpose="typography">
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .text-outline {
+            -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+            color: transparent;
+        }
+    </style>
+    <style data-purpose="backgrounds">
+        .grid-bg {
+            background-image: radial-gradient(circle, #333 1px, transparent 1px);
+            background-size: 60px 60px
+        }
+
+        .paper-texture {
+            background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuA76H9HAJ0BZqJ0yJudqKBWEoZssySU1L6Z-GXhRpqGCmeyZ2GoO2xZ73zXsP41Z0VnOT404j9k4fLMPprmPfv8Iw3sWnecjetGmcmih7n38yyl_ECgd_QLaShK7ac0mLvb_0ESHDorothpBrz2O9dFucpQIoov7Z_tYh4enabSJyAdQnFHuGx_Tm753nH-UPOeIb7ZFF2CvphCfyMGmAY9I_lqbQZY3PIzAE-VSzAr7iyWl0HiH6WnoRrbeT86AQMvTx0GJven7BA);
+            background-color: #e5e7eb
+        }
+
+        .dark-paper-texture {
+            background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuBRjZpiom8X7_f366yCBScWPXOm5EF-VUG-l_nJaP0VlBfuhUy6bzt-GMHZXHRziPUiSFCzR930EPrz4OkuxRLKKJ2qlrfbRUKwrl7a8jXV7aXFQj4jk7c08jKKAebpLkMpVwIWwsN90Q6ZV1GsqkgwGPtpBgC5uTrBx7KRASY82zULMeEbLH8QBkewTwSHta_NMU0Gi_S4wYTUSlrDoFqx7DGLnt8r6ymtugpp39b5g5cELq8Sxak3AMXWF5_h1tPcUvAFTC7ikC8);
+            background-color: #111
+        }
+    </style>
+</head>
+
+<body class="bg-[#0f0f0f] text-white">
+    <!-- BEGIN: MainHeader -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-[#0f0f0f]/80 backdrop-blur-md border-b border-white/5">
+        <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold tracking-tight">SUMANTH PASUPULETI</div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-400">
+                <a class="hover:text-white transition-colors" href="#work">My Work</a>
+                <a class="hover:text-white transition-colors" href="#resume">Resume</a>
+                <a class="hover:text-white transition-colors" href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <!-- END: MainHeader -->
+    <main>
+        <!-- BEGIN: HeroSection -->
+        <section class="relative min-h-screen pt-32 pb-20 overflow-hidden" id="home">
+            <!-- DotField Background -->
+            <div id="dot-field-hero" style="position:absolute;inset:0;width:100%;height:100%;z-index:0;"></div>
+            <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
+                <div class="z-10" data-purpose="hero-text">
+                    <h1 class="text-5xl md:text-7xl font-bold mb-8 leading-tight">
+                        Hello,<br />Sumanth here! <span class="inline-block animate-bounce">👋</span>
+                    </h1>
+                    <div class="space-y-6 text-gray-400 max-w-lg leading-relaxed">
+                        <p>I'm a ⚙️ Data Engineer with around 3 years of experience, skilled in Python, ETL processes,
+                            and Big Data tools like Spark. I specialize in designing end-to-end data pipelines,
+                            streamlining data extraction workflows, and building robust cloud architectures across Azure
+                            &amp; AWS.</p>
+                        <p>All things Data: Pipeline Engineering. Cloud Architecture. BI Dashboards. Yep, I do them all.
+                        </p>
+                        <p>I build efficient ETL pipelines and create interactive dashboards with Power BI &amp; Tableau
+                            — turning raw data into actionable insights that drive smarter decisions. Let's build
+                            systems that don't just store data, but make it speak. 🚀</p>
+                    </div>
+                    <div class="mt-10 flex items-center space-x-6 text-gray-400">
+                        <span class="text-sm font-medium">Hakuna Matata! 🕊️</span>
+                        <div class="flex space-x-6 text-xl">
+                            <a class="hover:text-white transition-colors" href="#"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                            <a class="hover:text-white transition-colors" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="hover:text-white transition-colors" href="#"><i class="fab fa-behance"></i></a>
+                            <a class="hover:text-white transition-colors" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="hover:text-white transition-colors" href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="mt-10 flex flex-wrap gap-4">
+                        <a class="px-8 py-3 bg-white text-black rounded-full font-bold hover:bg-gray-200 transition-colors"
+                            href="#">Resume</a>
+                        <a class="px-8 py-3 bg-white/10 backdrop-blur-md border border-white/20 rounded-full font-medium hover:bg-white/20 transition-colors"
+                            href="mailto:sumanthpasupuleti1@outlook.com">sumanthpasupuleti1@outlook.com</a>
+                    </div>
+                </div>
+                <div class="relative group flex items-center justify-center" data-purpose="hero-image">
+                    <div id="hero-photo-glow">
+                        <img alt="Sumanth Pasupuleti Profile"
+                            class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                            src="assets/images/profile.jpeg" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: HeroSection -->
+        <!-- BEGIN: MotionDesignSection -->
+        <section class="relative py-24 overflow-hidden bg-white">
+            <video autoplay loop muted playsinline
+                class="absolute inset-0 w-full h-full object-cover z-0 opacity-100 brightness-100 contrast-100">
+                <source src="assets/videos/vecteezy_white-paper-animated-background-video_35149914.mp4" type="video/mp4">
+            </video>
+            <div class="max-w-7xl mx-auto px-6 relative z-10">
+                <div class="flex justify-between items-end mb-16">
+                    <h2 class="text-7xl font-bold text-gray-900 tracking-tighter">Projects</h2>
+                    <a class="text-sm font-bold text-gray-600 border-b-2 border-gray-400 pb-1" href="#">View Projects
+                        →</a>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Main Left Column -->
+                    <div class="md:col-span-2 space-y-8">
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-black rounded-3xl overflow-hidden aspect-square relative group border border-white/5">
+                                <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+                                    <source src="assets/videos/Live Stock Market Streaming.mp4" type="video/mp4">
+                                </video>
+                                <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity p-8 flex flex-col justify-between">
+                                    <div class="flex justify-end">
+                                        <a class="text-white text-3xl hover:text-emerald-400 transition-all hover:scale-110" href="#">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <span class="text-emerald-400 text-xs font-bold uppercase tracking-wider">Real-time Data</span>
+                                        <h3 class="text-2xl font-bold text-white">Live Stock Market Streaming</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-black rounded-3xl overflow-hidden aspect-square relative group border border-white/5">
+                                <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+                                    <source src="assets/videos/Normalized Food Ordering Database.mp4" type="video/mp4">
+                                </video>
+                                <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity p-8 flex flex-col justify-between">
+                                    <div class="flex justify-end">
+                                        <a class="text-white text-3xl hover:text-blue-400 transition-all hover:scale-110" href="#">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <span class="text-blue-400 text-xs font-bold uppercase tracking-wider">Database Design</span>
+                                        <h3 class="text-2xl font-bold text-white">Normalized Food Ordering Database</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-black aspect-[16/7] rounded-3xl overflow-hidden relative group border border-white/5">
+                            <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+                                <source src="assets/videos/Scalable Rideshare Pipeline.mp4" type="video/mp4">
+                            </video>
+                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity p-12 flex flex-col justify-between">
+                                <div class="flex justify-end">
+                                    <a class="text-white text-4xl hover:text-purple-400 transition-all hover:scale-110" href="#">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <span class="text-purple-400 font-bold text-sm uppercase tracking-widest mb-2 inline-block">Cloud Architecture</span>
+                                    <h3 class="text-5xl font-bold text-white tracking-tighter">Scalable Rideshare Pipeline</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right Column -->
+                    <div class="md:col-span-1 space-y-8">
+                        <div class="bg-black rounded-3xl overflow-hidden aspect-[4/5] relative group border border-white/5">
+                            <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+                                <source src="assets/videos/Enterprise Data Warehouse Migration .mp4" type="video/mp4">
+                            </video>
+                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity p-8 flex flex-col justify-between">
+                                <div class="flex justify-end">
+                                    <a class="text-white text-3xl hover:text-rose-400 transition-all hover:scale-110" href="#">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <span class="text-rose-400 text-xs font-bold uppercase tracking-wider">Cloud Migration</span>
+                                    <h3 class="text-2xl font-bold text-white">Enterprise Data Warehouse Migration</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-black rounded-3xl overflow-hidden aspect-[4/5] relative group border border-white/5">
+                            <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+                                <source src="assets/videos/Customer Churn Prediction Data Platform .mp4" type="video/mp4">
+                            </video>
+                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity p-8 flex flex-col justify-between">
+                                <div class="flex justify-end">
+                                    <a class="text-white text-3xl hover:text-amber-400 transition-all hover:scale-110" href="#">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <span class="text-amber-400 text-xs font-bold uppercase tracking-wider">Predictive Analytics</span>
+                                    <h3 class="text-2xl font-bold text-white">Customer Churn Prediction Data Platform</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: MotionDesignSection -->
+        <!-- BEGIN: Project01_MarvelouS -->
+        <section class="bg-[#f0f9ff] text-[#0c4a6e] min-h-screen flex flex-col justify-center py-32 relative overflow-hidden" id="work">
+            <div class="absolute top-12 right-12 text-sm font-bold text-sky-950/50 tracking-[0.2em] uppercase select-none z-20">
+                Jan 2024 – Present
+            </div>
+            <div class="max-w-7xl mx-auto px-6 w-full relative z-10">
+                <div class="flex justify-between items-end mb-16">
+                    <h2 class="text-7xl font-bold text-sky-950 tracking-tighter">Experience</h2>
+                </div>
+                <div class="grid md:grid-cols-12 gap-12 items-center">
+                    <div class="md:col-span-7 relative">
+                        <span
+                            class="text-[12rem] font-bold text-blue-100 absolute -top-24 -left-10 select-none opacity-50">01</span>
+                        <div
+                            class="relative z-10 bg-blue-500/5 rounded-[3rem] p-4 md:p-8 flex items-center justify-center border border-blue-200/50 shadow-2xl">
+                            <img alt="APOLLO ITS Tolling Services" class="w-full h-auto rounded-2xl shadow-lg"
+                                src="assets/images/apollo_its_mockup.png" />
+                        </div>
+                    </div>
+                    <div class="md:col-span-5 space-y-8">
+                        <h2 class="text-7xl font-bold tracking-tighter leading-tight">APOLLO ITS</h2>
+                        <div class="flex items-center space-x-3 text-blue-600 font-bold uppercase tracking-widest text-sm">
+                            <span class="w-8 h-[2px] bg-blue-600"></span>
+                            <span>Tolling Services & Mobility</span>
+                        </div>
+                        <div class="bg-blue-600/5 p-10 rounded-[2.5rem] border border-blue-600/10 backdrop-blur-sm">
+                            <p class="text-lg leading-relaxed text-sky-900/80">
+                                We help our clients meet their business needs with our technical expertise in CRM and BI and domain knowledge in the Electronic Toll Collection industry. From System Integration to Data Migration and Business Intelligence, we enable customers to accelerate their business growth.
+                            </p>
+                        </div>
+                        <a class="inline-flex items-center text-sm font-bold text-blue-700 hover:text-blue-900 transition-colors group"
+                            href="#">
+                            View complete implementation →
+                            <svg class="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: Project01_MarvelouS -->
+        <!-- BEGIN: Project02_BriskWinIT -->
+        <section class="relative min-h-screen flex items-center py-32 overflow-hidden bg-[#0a0a0a]">
+            <div class="absolute top-12 right-12 text-sm font-bold text-white/50 tracking-[0.2em] uppercase select-none z-20">
+                Dec 2021 – Nov 2022
+            </div>
+            <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover z-0 invert opacity-30">
+                <source src="assets/videos/vecteezy_white-paper-animated-background-video_35149914.mp4" type="video/mp4">
+            </video>
+            <div class="max-w-7xl mx-auto px-6 relative z-10">
+                <div class="grid md:grid-cols-12 gap-12 items-center">
+                    <div class="md:col-span-5 order-2 md:order-1 space-y-8">
+                        <span class="text-[12rem] font-bold text-white/5 select-none absolute -top-24 -left-10">02</span>
+                        <h2 class="text-7xl font-bold tracking-tighter text-white relative z-10">BriskWin IT</h2>
+                        <div class="flex items-center space-x-3 text-blue-400 font-bold uppercase tracking-widest text-sm relative z-10">
+                            <span class="w-8 h-[2px] bg-blue-400"></span>
+                            <span>Custom IT & Staffing Solutions</span>
+                        </div>
+                        <p class="text-lg text-gray-400 leading-relaxed max-w-md relative z-10">
+                            BriskWin IT Solutions is a dynamic IT Services and Staffing company. We cater to global clients with efficient solutions in Talent Acquisition, CRM, Cloud, and Database Management, solving business challenges to drive success.
+                        </p>
+                        <div class="pt-4 relative z-10">
+                            <a class="text-sm font-bold text-white border-b-2 border-white/20 pb-1 hover:border-white transition-colors"
+                                href="#">View project details →</a>
+                        </div>
+                    </div>
+                    <div class="md:col-span-7 order-1 md:order-2">
+                        <div
+                            class="bg-blue-600/10 rounded-[3rem] p-4 md:p-8 aspect-video flex items-center justify-center overflow-hidden border border-white/10 shadow-2xl backdrop-blur-sm">
+                            <img alt="BriskWin IT Mockup" class="w-full h-auto rounded-2xl shadow-lg"
+                                src="assets/images/briskwin_it_mockup.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: Project02_BriskWinIT -->
+    </main>
+    <!-- BEGIN: Footer -->
+    <footer class="bg-[#0f0f0f] py-24 border-t border-white/5" id="contact">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-7xl font-bold mb-16 tracking-tighter">Get in touch</h2>
+            <div class="flex flex-col md:flex-row justify-between items-end gap-12">
+                <div class="space-y-8">
+                    <a href="mailto:sumanthpasupuleti1@outlook.com" class="bg-white text-black px-8 py-4 rounded-full font-bold text-lg inline-block hover:bg-gray-200 transition-all hover:scale-105 active:scale-95 shadow-xl">
+                        sumanthpasupuleti1@outlook.com
+                    </a>
+                    <div class="flex items-center space-x-3 text-gray-400 hover:text-white transition-colors cursor-pointer group">
+                        <i class="far fa-file-pdf text-xl"></i>
+                        <span class="text-sm font-medium border-b border-gray-700 group-hover:border-white transition-colors">Resume-Sumanth-Pasupuleti.pdf</span>
+                    </div>
+                </div>
+                <div class="flex space-x-8 text-3xl pb-2">
+                    <a class="text-gray-500 hover:text-white transition-all hover:-translate-y-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="text-gray-500 hover:text-white transition-all hover:-translate-y-1" href="#"><i class="fab fa-youtube"></i></a>
+                    <a class="text-gray-500 hover:text-white transition-all hover:-translate-y-1" href="#"><i class="fab fa-behance"></i></a>
+                    <a class="text-gray-500 hover:text-white transition-all hover:-translate-y-1" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="text-gray-500 hover:text-white transition-all hover:-translate-y-1" href="#"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="mt-24 pt-8 border-t border-white/5 flex justify-between items-center text-xs text-gray-600">
+                <p>© 2026 Sumanth pasupuleti. All rights reserved.</p>
+                <p>Made with passion for design.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- END: Footer -->
+    <script src="js/dot-field.js"></script>
+    <script src="js/border-glow.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var heroContainer = document.getElementById('dot-field-hero');
+            if (heroContainer) {
+                DotField.init(heroContainer, {
+                    dotRadius: 1.5,
+                    dotSpacing: 40,
+                    bulgeStrength: 67,
+                    glowRadius: 160,
+                    sparkle: false,
+                    waveAmplitude: 0,
+                    gradientFrom: '#94a3b8',
+                    gradientTo: 'rgba(100, 160, 255, 0.18)',
+                    glowColor: '#0f0f0f'
+                });
+            }
+
+            var photoGlow = document.getElementById('hero-photo-glow');
+            if (photoGlow) {
+                BorderGlow.init(photoGlow, {
+                    edgeSensitivity: 0,
+                    glowColor: "40 80 80",
+                    backgroundColor: "transparent",
+                    borderRadius: 40,
+                    glowRadius: 24,
+                    glowIntensity: 1.7,
+                    coneSpread: 45,
+                    animated: true,
+                    colors: ['#c084fc', '#f472b6', '#38bdf8']
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

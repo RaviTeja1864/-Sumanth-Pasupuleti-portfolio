@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sanjeev Sriram - Motion Design Portfolio</title>
+<!-- Tailwind CSS CDN with plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Custom Google Fonts (Assuming a clean Sans-Serif style based on images) -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style data-purpose="typography">
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    h1 {
+      line-height: 1.1;
+    }
+  </style>
+<style data-purpose="backgrounds">
+    .bg-cream {
+      background-color: #FDF6E9;
+    }
+    .bg-light-blue {
+      background-color: #E3F2FD;
+    }
+    .hero-gradient {
+      /* Replicating the abstract flow background from Image 2 */
+      background: linear-gradient(135deg, #3D2B56 0%, #634C32 50%, #2D1B36 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    /* Abstract shapes simulation for hero */
+    .hero-gradient::before {
+      content: '';
+      position: absolute;
+      top: -10%;
+      left: -10%;
+      width: 60%;
+      height: 80%;
+      background: radial-gradient(circle, rgba(138, 108, 163, 0.4) 0%, transparent 70%);
+      filter: blur(60px);
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+<!-- BEGIN: Navigation -->
+<nav class="fixed top-0 left-0 w-full bg-black/80 backdrop-blur-md text-white z-50 px-8 py-4 flex justify-between items-center" data-purpose="main-nav">
+<div class="font-bold text-lg">Sanjeev Sriram</div>
+<div class="flex gap-8 text-sm font-medium">
+<a class="hover:text-gray-300 transition-colors" href="#">My Work</a>
+<a class="hover:text-gray-300 transition-colors" href="#">Resume</a>
+<a class="hover:text-gray-300 transition-colors" href="#">Contact</a>
+</div>
+</nav>
+<!-- END: Navigation -->
+<!-- BEGIN: Hero Section -->
+<header class="hero-gradient min-h-[60vh] flex flex-col items-center justify-center pt-20 px-4 text-center text-white" data-purpose="hero-section">
+<h1 class="text-5xl md:text-7xl font-extrabold max-w-4xl tracking-tight">
+      Motion Design &amp;<br/>Animation
+    </h1>
+</header>
+<!-- END: Hero Section -->
+<!-- BEGIN: Portfolio Flow -->
+<main data-purpose="portfolio-container">
+<!-- Project 1: Cadbury (Light Blue) -->
+<section class="bg-light-blue py-20 px-4 flex flex-col items-center" data-purpose="project-card">
+<div class="w-full max-w-5xl bg-black rounded-lg overflow-hidden shadow-2xl transition-transform hover:scale-[1.01]">
+<!-- Mock Video Player Interface -->
+<div class="aspect-video relative group">
+<img alt="Cadbury Project" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuj5eqOO7F-636f8hTfV8sy880zwYUePg8FIJpZ-ksG8eK_3sV4BF_2dIzq5xeL6n9D7ofQ-DUJ5qJ6qvbO4ENfxURw9ktlQ9iI1XGA4YtwMpNpif3zac1LfXu0t5TUyyao2hyPKIAeWEffb4eKv6b1xzTpxJwo1wMhQKmuScs5dGBb5lYxWUgPLfXLzi4eSbdOaHvfQGwXiYjV41u1T1zy9RZzENci7JHHx7ayrYDaGUXVrQewCfjnXZ4TI-PjLDuVMiaZizHm7g"/>
+<div class="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="w-16 h-16 bg-white/30 rounded-full flex items-center justify-center backdrop-blur-sm">
+<div class="w-0 h-0 border-t-[10px] border-t-transparent border-l-[18px] border-l-white border-b-[10px] border-b-transparent ml-1"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center mt-6">
+<h3 class="text-xl font-bold">Cadbury Dairy Milk - 3D Product Animation</h3>
+<p class="text-sm text-gray-600 mt-1 italic">Made with Adobe After Effects</p>
+</div>
+</section>
+<!-- Project 2: eBook App (Cream) -->
+<section class="bg-cream py-20 px-4 flex flex-col items-center" data-purpose="project-card">
+<div class="w-full max-w-5xl bg-black rounded-lg overflow-hidden shadow-2xl transition-transform hover:scale-[1.01]">
+<div class="aspect-video relative group">
+<img alt="eBook App" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPT865KQKaqooczrC5z5K1dJY4wnlGgu825kPX-Ar7vW6LhyvTa3znPyrt_nx4rIfT5nCrTBMKcjsCLZ9zhuithFgi1izwo3-C7Om0y2yksF8g_VspX6hY3cCZc4qa8TVxZmOFFQw-_8xMzaOu9vdBnEczbozMGHAcSNokSISzrYrOqT1wM9q8dw7GyY08czb3AovntPvTC1DdsWe9CbOjmVnsNQQQEEri_b9DQiAWtl5M9I080E9D_RyxEnZQ4eKZT_XBWMoUzXI"/>
+</div>
+</div>
+<div class="text-center mt-6">
+<h3 class="text-xl font-bold">eBook App &amp; Page Flip Animation - Motion Design</h3>
+<p class="text-sm text-gray-600 mt-1 italic">Made with Adobe After Effects, Figma</p>
+</div>
+</section>
+<!-- Project 3: Nike Product (Light Blue) -->
+<section class="bg-light-blue py-20 px-4 flex flex-col items-center" data-purpose="project-card">
+<div class="w-full max-w-5xl bg-black rounded-lg overflow-hidden shadow-2xl transition-transform hover:scale-[1.01]">
+<div class="aspect-video relative group">
+<img alt="Nike Project" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHj6XKNIPqjhF_B0b64YRgT1Kqn-GoCVt4-QgvFPUbDrfw5IEJmRYnzG3NNQ-CVmKJb5u6B-6YPe0YKQpD_TDY1p_F2aKLVXk6u1gq1urbf774CFtJMbCpLWHXu4X72BVBaI4nksqoQ9Egqg57BImTnI63RLonyfUWUQ8o-5nUjFmZC-V_FblhG_tMbnsJQV4gO5zsIR84d1MSBaiBjsyvUAKRy7JG34MjRp2ThQpKlX7MaT7bTQ6yn-04iWvDme0FB9AkR84md50"/>
+</div>
+</div>
+<div class="text-center mt-6">
+<h3 class="text-xl font-bold">Nike Product Landing Page - Motion Design</h3>
+<p class="text-sm text-gray-600 mt-1 italic">Made with Adobe After Effects</p>
+</div>
+</section>
+<!-- Project 4: Logo Animation (Cream) -->
+<section class="bg-cream py-20 px-4 flex flex-col items-center" data-purpose="project-card">
+<!-- Logo Circle at top of section as seen in Image 1 -->
+<div class="mb-12">
+<div class="w-32 h-32 rounded-full border-8 border-white shadow-lg overflow-hidden flex items-center justify-center bg-white">
+<img alt="Logo Icon" class="w-full h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkwODN6J8u-Thfq0BqhtKgBM0mZlIrOnwdGQ0NjtEb_PuntdKfCTtq2O3mOXlhAShCBxaATsbN95-uHyaEC_KJj4CabhU-GKSg4ajCOqZdP8IPHw9dwip6OJr_n9x4_5Nv19KAsuyMvOttyoFrD6mj0HBxsYKMKuPf9pBPXf4kvS-5RkadA57SPQpUzYjb81t0fTucyo_78ahR1tNcJDt5apRt1oJ2wcuyrqkNryTel8-fCFZbSdvPYoiZHxmvmH5lQjR5TQw2fDQ"/>
+</div>
+</div>
+<div class="w-full max-w-5xl bg-black rounded-lg overflow-hidden shadow-2xl transition-transform hover:scale-[1.01]">
+<div class="aspect-video relative group">
+<img alt="Logo Animation" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwOxWFKoQOiY_d92lFzrUOSkZv-Ru9-KQ4eeTN6sfXCd77IHz9Jz98Q0kMDmpz9hBOpABIdczzdeDmD0gkcXT4k0QgGcQJ9nGDFimVqrLlS45MYsd7H_NPJup-8CDv3dNeS0aY-13Bed9QS-5-Iv3GvvwK7rBUqXPnJj-EE5ckRHXrwa24d7M3fZQIM7sN-Sd9W7-p-AP-yVUwiyo5VTOLtJ9GJuX_tc2RIDsJ5lIjC3ca3BWwK-J2HHRMWF50JPoDiWyYVz9w6WI"/>
+</div>
+</div>
+<div class="text-center mt-6">
+<h3 class="text-xl font-bold">Logo Animation - Illustration Motion Design</h3>
+<p class="text-sm text-gray-600 mt-1 italic">Made with Adobe After Effects</p>
+</div>
+</section>
+<!-- Project 5: 3D Carousel (Light Blue) -->
+<section class="bg-light-blue py-20 px-4 flex flex-col items-center" data-purpose="project-card">
+<div class="w-full max-w-5xl bg-black rounded-lg overflow-hidden shadow-2xl transition-transform hover:scale-[1.01]">
+<div class="aspect-video relative group">
+<img alt="3D Carousel" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdHdotVDpPXYaUgMTt2U0hGGLySgAt91ad3Bes2AH1OpvKnY4k04t2vs0-oH-O-8n3PUUqhhGdl8oKlD4t3kjjL-aA5KLxQwNeL9Ex6POwuc519gBY9h-Iro_FN_41xi5oH_-_4B0jQ8StPydUyh14_Y-8vrRW3_dr7jP0Scr7kzkJEt2RcCW2mkw6-X0iuRBKIPw_yQyl-X21N-aimLVAS6ERP6Y0SCrNwReKOQXSTRk6O_ZLnCW5NW_F2XAgn737hU2uW5sfSdc"/>
+</div>
+</div>
+<div class="text-center mt-6">
+<h3 class="text-xl font-bold">3D Carousel Slider Landing Page - Motion Design</h3>
+<p class="text-sm text-gray-600 mt-1 italic">Made with Figma</p>
+</div>
+</section>
+<!-- Project 6: 3D Cards & Wallet (Cream) -->
+<section class="bg-cream py-20 px-4 flex flex-col items-center" data-purpose="project-card">
+<div class="w-full max-w-5xl bg-black rounded-lg overflow-hidden shadow-2xl transition-transform hover:scale-[1.01]">
+<div class="aspect-video relative group">
+<img alt="Cards Wallet" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD32GKSWBK21I9kZjqMcny2xmqt77Y8SKQpCqkIhg8sFsZAa-oWL97CMENM_tQjbxJ7WPkFaLsrb2opFN1XsUoFt1ZLI61tpdp8j9HC-J3a0HOq514cc18Iza-X_KzMuJ6ddNkCvVbzcCIhesl1D3P_4jDCAo9ol0ZFWEzmrKlMYSvfTs6rNI1jfVx-Pd3Y-G3FvMyJLwIhCCsQVX3mZPOEud85doBLQvbaWVyil187a4Mg58E66Hx1ZL88p1WjOYJWmLyJzpv4hb0"/>
+</div>
+</div>
+<div class="text-center mt-6">
+<h3 class="text-xl font-bold">3D Cards &amp; Wallet Animation - Motion Design</h3>
+<p class="text-sm text-gray-600 mt-1 italic">Made with Adobe After Effects, Figma</p>
+</div>
+</section>
+<!-- Project 7: Parallax Animation (Light Blue) -->
+<section class="bg-light-blue py-20 px-4 flex flex-col items-center" data-purpose="project-card">
+<div class="w-full max-w-5xl bg-black rounded-lg overflow-hidden shadow-2xl transition-transform hover:scale-[1.01]">
+<div class="aspect-video relative group">
+<img alt="Parallax Animation" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEK0QnS_FwczB1IY2PC4PZA6IibczHsPS1lzgXVZPIA-H3AtFeopS_KmAd9MRGIup85SueW_P0ER0udLVjNExYNfCSc-O7UFIAYyasN_QVOoNysx4RUTZCpClAtUezeLb-IBcCaV35m0NOCixdDGOYP3nutiLXV92ADMbsNH513-5_fY9bssf-s9SJwOlLfLtiE4LzhUS1m_oMlymv8YjlBm3XRXqMbjNqPg1S1kGwwXVI51Y7vlY9XDF9TPqZQqzGu_iy7PRwThw"/>
+</div>
+</div>
+<div class="text-center mt-6 pb-12">
+<h3 class="text-xl font-bold">Parallax Animation - Motion Design</h3>
+<p class="text-sm text-gray-600 mt-1 italic">Made with Adobe After Effects, Figma</p>
+</div>
+</section>
+</main>
+<!-- END: Portfolio Flow -->
+<!-- BEGIN: Footer -->
+<footer class="bg-[#111111] text-white py-16 px-8 text-center" data-purpose="footer">
+<h2 class="text-3xl font-semibold mb-8">Get in touch</h2>
+<div class="flex flex-col items-center space-y-6">
+<!-- Email Box -->
+<div class="bg-white text-black px-6 py-2 rounded-sm font-medium text-sm">
+        sanjeevsriram02@gmail.com
+      </div>
+<!-- Links and Social Icons -->
+<div class="flex flex-col items-center gap-4">
+<a class="flex items-center gap-2 hover:underline text-sm" href="#">
+<svg class="w-4 h-4" fill="currentColor" viewbox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"></path></svg>
+          Resume-Sanjeev-Sriram.pdf
+        </a>
+<div class="flex gap-6 mt-4">
+<!-- Social Icons Placeholder SVGs -->
+<a class="opacity-70 hover:opacity-100 transition-opacity" href="#">
+<svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+</a>
+<a class="opacity-70 hover:opacity-100 transition-opacity" href="#">
+<svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg>
+</a>
+<a class="opacity-70 hover:opacity-100 transition-opacity" href="#">
+<svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+</a>
+<a class="opacity-70 hover:opacity-100 transition-opacity" href="#">
+<svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.041-1.416-4.041-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: Footer -->
+</body></html>
